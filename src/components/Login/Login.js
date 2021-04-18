@@ -26,23 +26,9 @@ const Login = () => {
       .then((result) => {
         setLoggedInUser(result.user);
         history.replace(from);
-
-        setUserToken();
       })
       .catch((error) => {
         console.log(error);
-      });
-  };
-
-  const setUserToken = () => {
-    firebase
-      .auth()
-      .currentUser.getIdToken(/* forceRefresh */ true)
-      .then(function (idToken) {
-        sessionStorage.setItem('token', idToken);
-      })
-      .catch(function (error) {
-        // Handle error
       });
   };
 
