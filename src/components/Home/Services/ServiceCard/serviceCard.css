@@ -1,0 +1,13 @@
+.service-content .price-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.service-card {
+  margin: 5px;
+}
+.service-img {
+  margin: 10px 0;
+}
+.service-content {
+  padding: 15px;
+}

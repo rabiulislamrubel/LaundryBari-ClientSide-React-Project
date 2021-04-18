@@ -1,0 +1,23 @@
+.working-process {
+  margin: 50px 0;
+}
+.workCard {
+  padding: 20px;
+  margin: 5px;
+  text-align: center;
+}
+.workCard-img img {
+  height: 50px;
+}
+.workCard-img {
+  margin-bottom: 10px;
+}
+.workCard-content a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.workCard-content a:hover {
+  color: #0069d9;
+}

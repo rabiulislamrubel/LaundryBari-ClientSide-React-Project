@@ -1,0 +1,11 @@
+.hero-content {
+  display: flex;
+  height: 500px;
+  align-items: center;
+}
+.hero-content .hero-font {
+  font-size: 3.2rem;
+}
+.hero-content p {
+  font-size: 1.2rem;
+}
